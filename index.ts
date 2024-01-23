@@ -6,7 +6,7 @@ import { fetchWithTimeoutAndFallback, urlResolve } from "./helper";
 const program = new Command();
 const freezedProviders = new Prometheus.Gauge({
   name: 'provider_frozen',
-  help: 'Freezed status of a provider. 1 for frozen, 0 can be not frozen or not found in providers response.',
+  help: 'Freezed status of a provider. 1 for frozen, 0 can be (not frozen) or (not found) in the provider\'s response.',
   labelNames: ['chain'],
 });
 type Config = {
