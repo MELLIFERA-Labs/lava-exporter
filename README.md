@@ -1,5 +1,5 @@
 # lava-exporter
-> Simple exporter to check your lava provider frozen or not 
+> Simple exporter to check your lava provider is frozen or not 
 
 ## Install  
 
@@ -8,9 +8,9 @@
 wget 
 ```
 ### Build from source: 
-1. Intall bun(javaScript runtime) https://bun.sh
+1. Install bun(JavaScript runtime) https://bun.sh
 2. Clone this repo
-3. To install dependencies:
+3. Install dependencies:
 ```bash
 bun install
 ```
@@ -33,7 +33,7 @@ Look at [config.example.toml](config.example.toml) for more details
 
 ### Metrics expose example 
 ```
-# HELP provider_frozen Freezed status of a provider. 1 for frozen, 0 can be not frozen or not found in providers response.
+# HELP provider_frozen Freezed status of a provider. 1 for frozen, 0 can be (not frozen) or (not found) in the provider's response.
 # TYPE provider_frozen gauge
 provider_frozen{chain="EVMOST"} 0
 provider_frozen{chain="EVMOS"} 0
