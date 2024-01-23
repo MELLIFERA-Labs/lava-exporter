@@ -5,9 +5,9 @@
 
 ### Download exporter: 
 ```bash 
-wget 
+wget https://github.com/MELLIFERA-Labs/lava-exporter/releases/download/v1.0.0/lava-exporter-linux-v1.0.0-amd64
 ```
-### Build from source: 
+### Or build from source: 
 1. Install bun(JavaScript runtime) https://bun.sh
 2. Clone this repo
 3. Install dependencies:
