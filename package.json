@@ -1,0 +1,16 @@
+{
+  "name": "lava-exporter",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "commander": "^11.1.0",
+    "prom-client": "^15.1.0",
+    "toml": "^3.0.0"
+  }
+}

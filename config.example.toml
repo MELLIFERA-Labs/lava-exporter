@@ -1,0 +1,9 @@
+# array of lava rest api endpoints. Will be used next URL if previous is down
+lava_rest_api = ['https://rest-public-rpc.lavanet.xyz']
+# Your chains to track for your provider. 
+# Name should be match with the chainID from this list: 
+# https://rest-public-rpc.lavanet.xyz/lavanet/lava/spec/show_all_chains
+# Otherwise provider_frozen always will be 0
+chains = ['EVMOST', 'EVMOS', 'AXELAR', 'AXELART']
+# Your provider address 
+lava_provider_address = 'lava@1rgs6cp3vleue3vwffrvttjtl4laqhk8fthu466' 
